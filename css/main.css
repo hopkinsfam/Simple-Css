@@ -1,0 +1,391 @@
+  * {
+
+  	box-sizing: border-box;
+  }
+
+.clearfix:before, .clearfix:after{
+	content:"";
+	display: table;
+}
+
+.clearfix:after{
+	clear: both;
+}
+
+a {
+    text-decoration: none;
+    color: #b0b0b0;
+}
+
+  body {
+	
+    font-family:  'Titillium Web', sans-serif;
+    color: b0b0b0;
+	width: 1920px;
+
+  }
+.logo {
+    float: left;
+    height: 70px;
+    margin: auto;
+    
+}
+
+header {
+    height: 70px;
+    width: 1180px ;
+    margin: auto;
+}
+
+
+header nav  {
+    
+    float: right;
+    
+    margin-top: 30px;
+    
+    
+}
+
+header nav ul li  {
+    display: inline-block;
+    font-size: 16px;
+    text-decoration: none;
+    margin-left: 40px;
+}
+
+.redactive  {
+    color: #f63c3c;
+    height: 41px;
+    border-bottom: thick solid #f63c3c;
+}
+
+.redactive a {
+    color: #f63c3c;
+    
+}
+
+.hero {
+    
+    
+    margin: 0 auto;
+    background-image: url(../img/girlbackground.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    
+    background-size: cover;
+}
+
+h1 {
+    
+    font-family: 'Teko', sans-serif;
+    font font-weight: 300;
+     font-size: 120px;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 15px;
+    
+}
+
+.hero ul {
+    max-height: 1170px;
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+}
+.title {
+    visibility: hidden;
+}
+
+.active .title {
+    visibility: visible;
+   
+}
+
+.title {
+    vertical-align: center;
+    text-align: center;
+    width: 1190px;
+    display: inline-block;
+    margin-top: 316px;
+   
+     
+    
+    
+        
+}
+
+.title p {
+    font-size: 22px;
+    color: #dcdbdd;
+    font-family:  'Titillium Web', sans-serif;
+    width: 60%;
+    text-align: center;
+    display: inline-block;
+    margin-top: 40px;
+}
+
+
+.btn {
+    font-family: 'Teko', sans-serif;
+    letter-spacing: 5px;
+    display: block;
+    width: 230px;
+    height: 50px;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 16px;
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;  
+    
+}
+
+.lines ul li {
+    display: inline-block;
+    font-family: 'Teko', sans-serif;
+    font font-weight: 300;
+    font-size: 120px;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 15px;    
+    opacity: 0.4;
+    
+}
+
+.lines {
+    width: 100%;
+    display: inline-block;
+    margin: 0 auto;
+    margin-bottom: 60px;
+    
+    
+     
+}
+
+.lines .active {
+    opacity: 1;
+}
+
+.projects h2 {
+    font-family: 'Teko', sans-serif;
+    font-size: 40px;
+    color: black;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+
+}
+
+.projects {
+    
+    display: block;
+    width: 1920px;
+    margin: 0 auto;
+    
+}
+
+.left {
+    display: inline-block;
+    max-width: 927px;
+    float: left;
+    
+}
+
+.right {
+    display: inline-block;
+    max-width: 927px;
+    float: right;
+    
+}
+
+
+h3 {
+    font-family: 'Teko', sans-serif;
+    font-size: 30px;
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin: 20px;
+    
+}
+
+figure {
+    position: relative;
+    font-family: 'Teko', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    
+
+}
+
+figure:hover figcaption {
+    display: block;
+}
+
+figcaption {
+    position: absolute;
+    background-color: #f63c3c;
+    display: block;
+    z-index: 10;
+    float: left;    
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: white;
+    border: 20px solid black;
+    font-size: 18px;
+    display: none;
+    
+}
+
+
+h4 {
+
+    font-family: 'Teko', sans-serif;
+    font-weight: 24px;
+    margin-bottom: 79px;
+    margin-top: 190px;
+    
+    line-height: 40px;
+
+}
+
+
+article {
+    width: 90%;
+    margin-bottom: 30px;
+}
+
+article p {
+    font-size: 14px;
+    text-align: center;
+    
+    
+}    
+
+.show  {
+    
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    width: 40%;
+    position: relative;
+    margin: 0 auto;
+    clear: both;
+
+
+    
+}
+
+
+
+.show a {
+    font-family: 'Teko', sans-serif;
+    font-size: 30px;
+    color: #f63c3c;
+    border-bottom: 10px solid #f63c3c;
+    display: inline-block;
+    clear: both;
+    margin-top: 60px;
+
+    
+}
+
+.showcase {
+    height: 245px;
+    background-color: #f63c3c;
+    margin-top: 70px;
+    clear: both;
+    padding-top: 60px;
+
+}
+
+.showcase h2 {
+
+    color: white;
+    text-align: center;
+    position: relative;
+    font-family: 'Teko', sans-serif;
+    font-size: 40px;
+    font-weight: 300px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+.showcase p {
+
+    color: white;
+    text-align: center;
+    font-weight: 300px;
+    font-family:  'roboto', sans-serif;
+    font-size:     16px;
+    opacity: .7;
+}
+
+.showcase .btn {
+    margin-top: 20px;
+}
+
+
+aside h2 {
+    
+    margin-top: 63px;
+    font-family: 'Teko', sans-serif;
+    font-size: 40px;
+    font-weight: 300px;
+    letter-spacing: 5px;
+}
+
+
+.joinus {
+
+    font-weight: 300;
+    margin-top: 22px;
+}
+
+aside ul li a{
+
+    width: 270px;
+    height: 200px;
+    background-color: #30282a;
+    display: inline-block;
+    margin: 100px 16px 75px 16px;
+    color: white;
+    text-align: center;
+    padding-top: 70px;    
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 3px;
+    font-family: 'Teko', sans-serif;
+    line-height: 40px;
+
+}
+
+aside ul li {
+    display: inline-block;
+}
+
+aside ul {
+
+    width: 1220px;
+    margin: 0 auto;
+}
+;
+.fa-behance, .fa-facebook, .fa-pinterest, .fa-linkedin {
+        color: white    ;
+    
+}
+
+aside {
+
+    background-color: fafafa;
+}
